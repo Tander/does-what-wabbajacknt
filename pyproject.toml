@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "does-what-wabbajacknt"
+version = "0.1.0"
+description = ""
+authors = ["Tander <tander@elittle.net>"]
+readme = "README.md"
+packages = [{include = "does-what-wabbajacknt", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyautogui = "^0.9.54"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
